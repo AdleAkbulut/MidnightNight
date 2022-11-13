@@ -1,10 +1,10 @@
 import React from 'react'
-import './Home.css'
+import './FunFact.css'
 
-function Home() {
+function FunFacts() {
     return (
         <>
-            <div className='home-container'>
+            <div className='container'>
                 <div className='padding-top-120 flex justify-spacebtw'>
                     <div style={{backgroundColor: 'white', width: '50%', color: 'black', justifyContent:"center", justifySelf:"center", marginLeft:"25%"}}>
                         Corpus akdnlkkdaojlkankjbakfjnlkdkjabdnalkfnahdklfnb vbjdnkldvjhgfgcvnbjhgcNvbdnjslkjgfdhsgreafdwafsgdhfjgkl;'i;uliykutyjrterwewgtrhyjrutiyoupiuyutyrtgrlhgjgacn BNamds,dkl;jhzsgafghcnvbfnj;lkdslhakgajhVdmbdn,flkvjxlhgkajcnb mfdlvlxzhghj
@@ -16,4 +16,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default FunFacts;

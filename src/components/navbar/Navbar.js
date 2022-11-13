@@ -1,7 +1,7 @@
 import React from 'react'
 import { MenuItems } from "./MenuItems"
 import "./Navbar.css"
-import logo from "./Logo.jpg";
+
 
 function Navbar() {
     const [isClicked, setIsClicked] = React.useState(false)
@@ -18,7 +18,7 @@ function Navbar() {
 
     return(
         <nav className="navbar-container">
-            <a href={window.location.origin}><img src={logo} height="80px"/></a>
+            
             <ul className={isClicked? "nav-menu active":"nav-menu"}>
                 {MenuItems.map((item, index) => {
                         return(
