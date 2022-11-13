@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
   background-color: rgb(255, 232, 0);
   text-align: center;
@@ -36,6 +37,19 @@
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+=======
+body{
+  background-color: rgb(255, 232, 0);
+}
+
+.logo { 
+  background: url("bee.jpg") no-repeat; 
+  width: 100px; 
+  height: 100px; 
+  display: block; 
+  text-indent: -9999px;
+  align-self: center;
+>>>>>>> 9544ae0935d8cd10c680c6c87d27bf1bcec8c83e
 }
 
 /* Add a red background color to navbar links on hover */
